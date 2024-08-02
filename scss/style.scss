@@ -30,7 +30,7 @@ header {
 	flex-direction: column;
 	text-transform: uppercase;
 	.header-info {
-		height: 80vh;
+		height: 70vh;
 		@include flex-center();
 		flex-direction: column;
 		.header__title {
@@ -44,16 +44,23 @@ header {
 			font-size: 16px;
 		}
 	}
-	button {
-		border: 2px solid $text-color;
-		background: none;
-		border-radius: 50%;
-		padding: 10px;
-		font-size: 16px;
-		i {
-			color: $text-color;
+	.button-box {
+		height: 30vh;
+		button {
+			border: 2px solid $text-color;
+			background: none;
+			border-radius: 50%;
+			padding: 10px;
+			font-size: 16px;
+			i {
+				color: $text-color;
+			}
 		}
 	}
+}
+main {
+	background-image: url(../img/phone.png);
+	background-position: center;
 }
 .shop {
 	height: auto;
@@ -178,7 +185,7 @@ header {
 	&__box {
 		@include flex-center();
 		.fa-brands {
-			font-size: 48px;
+			font-size: 36px;
 			margin-top: 20px;
 			margin-left: 20px;
 			color: $secondary-color;
@@ -189,6 +196,7 @@ header {
 		}
 		.fa-brands:hover {
 			transform: scale(1.1);
+			cursor: pointer;
 		}
 	}
 	&__box--copyrights {
@@ -251,7 +259,7 @@ header {
 }
 @media (min-width: 1200px) {
 	main {
-		background-image: url(../img/ikigai_bg_red.png);
+		background-image: url(../img/desktop.png);
 		background-position: center;
 		background-size: cover;
 	}
