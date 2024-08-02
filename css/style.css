@@ -45,6 +45,9 @@ header .header-info .header__text {
   font-size: 16px;
 }
 header .button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 40vh;
 }
 header .button-box button {
