@@ -167,20 +167,20 @@ main {
 }
 .newsletter .box__title {
   color: #f94550;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
 }
 .newsletter .box__input--text {
   width: 100%;
   padding: 10px 10px;
-  margin: 20px 0;
+  margin: 10px 0;
   border: 1px solid #f94550;
   border-radius: 20px;
   background-color: transparent;
-  font-size: 20px;
+  font-size: 14px;
 }
 .newsletter .box__input--submit {
-  font-size: 16px;
+  font-size: 14px;
   padding: 8px;
   border: 1px solid #f94550;
   border-radius: 20px;
@@ -288,12 +288,12 @@ main {
     padding: 10vh 0;
   }
   .newsletter .box__title {
-    font-size: 30px;
+    font-size: 32px;
   }
   .newsletter .box__input--text {
-    width: 50%;
+    font-size: 24px;
   }
   .newsletter .box__input--submit {
-    padding: 13px;
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */

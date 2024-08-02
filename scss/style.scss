@@ -156,20 +156,20 @@ main {
 	.box {
 		&__title {
 			color: $main-color;
-			font-size: 24px;
+			font-size: 16px;
 			font-weight: bold;
 		}
 		&__input--text {
 			width: 100%;
 			padding: 10px 10px;
-			margin: 20px 0;
+			margin: 10px 0;
 			border: 1px solid $main-color;
 			border-radius: 20px;
 			background-color: transparent;
-			font-size: 20px;
+			font-size: 14px;
 		}
 		&__input--submit {
-			font-size: 16px;
+			font-size: 14px;
 			padding: 8px;
 			border: 1px solid $main-color;
 			border-radius: 20px;
@@ -281,13 +281,13 @@ main {
 		padding: 10vh 0;
 		.box {
 			&__title {
-				font-size: 30px;
+				font-size: 32px;
 			}
 			&__input--text {
-				width: 50%;
+				font-size: 24px;
 			}
 			&__input--submit {
-				padding: 13px;
+				font-size: 24px;
 			}
 		}
 	}
