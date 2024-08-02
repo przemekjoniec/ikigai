@@ -30,7 +30,7 @@ header {
 	flex-direction: column;
 	text-transform: uppercase;
 	.header-info {
-		height: 70vh;
+		height: 60vh;
 		@include flex-center();
 		flex-direction: column;
 		.header__title {
@@ -45,7 +45,7 @@ header {
 		}
 	}
 	.button-box {
-		height: 30vh;
+		height: 40vh;
 		button {
 			border: 2px solid $text-color;
 			background: none;
